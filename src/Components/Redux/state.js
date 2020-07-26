@@ -11,6 +11,10 @@ let state = {
 			{name: "Ruslan",
 			surname: "Nakonechnyy",
 			age: 23,
+			City: "Lviv"},
+			{name: "Ruslan",
+			surname: "Nakonechnyy",
+			age: 23,
 			City: "Lviv"}]
 			,
 	menuItems: [{title: "Home", paths: "/home",},
