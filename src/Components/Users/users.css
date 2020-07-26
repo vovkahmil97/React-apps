@@ -1,0 +1,75 @@
+/*.user_page {
+	display: flex;
+	justify-content: space-around;
+	margin: 25px;
+}*/
+
+.top_section {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px;
+
+}
+.user_title {
+	font-family: "Open Sans", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    color: #141414;
+     text-transform: uppercase;
+}
+
+.top_section input {
+	font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+    display: inline-block;
+    min-height: 1.4rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: .1rem solid transparent;
+    border-radius: 0;
+    outline: none;
+    color: #ffffff;
+    background-color: #fa8349;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.search_field {
+	margin: 10px;
+	width: 60%;
+	display: block;
+	border-radius: 0;
+    background: #ffffff;
+	font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    height: 2.4rem;
+    text-indent: 3.2rem;
+    color: rgba(20, 20, 20, 0.2);
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+}
+
+.User_cards {
+	display: flex;
+	justify-content: flex-start;
+	margin:  10px
+
+}
+
+.user_items {
+	margin-right: 15px;
+	border: solid 1px #d9d9d9;
+	padding: 25px
+}
+
+.user_name {
+	font-weight: bold
+}
